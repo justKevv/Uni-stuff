@@ -1,2 +1,2 @@
-## Dasar Pemrograman
-Welcome to my Repository where I put all of my Polinema  Assignment here!
+## Introduction to Programming
+This is where i put all of my assignment for Introduction to Programming courses
