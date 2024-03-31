@@ -20,21 +20,31 @@ public class MainSquared {
             png[i].squared = sc.nextInt();
             png[i] = new Squared(png[i].num, png[i].squared);
         }
+        System.out.println("Choose which one to execute");
+        System.out.println("1. Brute Force");
+        System.out.println("2. Divide and Conquer");
+        int choice = sc.nextInt();
 
-        System.out.println("+-----------------------------------+");
-        System.out.println("Results with Brute Force Squared");
-        for (int i = 0; i < elements; i++) {
-            System.out.println("Value " + png[i].num + " squared " + png[i].squared + " is: "
-                    + png[i].SquaredBF(png[i].num, png[i].squared));
-        }
+        switch (choice) {
+            case 1: // Brute Force
+                System.out.println("+-----------------------------------+");
+                System.out.println("Results with Brute Force Squared");
+                for (int i = 0; i < elements; i++) {
+                    System.out.println("Value " + png[i].num + " squared " + png[i].squared + " is: "
+                            + png[i].SquaredBF(png[i].num, png[i].squared));
+                }
+                break;
 
-        System.out.println("+-----------------------------------+");
-        System.out.println("Results with Divide and Conquer Squared");
-        for (int i = 0; i < elements; i++) {
-            System.out.println("Value " + png[i].num + " squared " + png[i].squared + " is: "
-                    + png[i].SquaredDC(png[i].num, png[i].squared));
+            case 2: // Divide and Conquer
+
+                System.out.println("+-----------------------------------+");
+                System.out.println("Results with Divide and Conquer Squared");
+                for (int i = 0; i < elements; i++) {
+                    System.out.println("Value " + png[i].num + " squared " + png[i].squared + " is: "
+                            + png[i].SquaredDC(png[i].num, png[i].squared));
+                }
+                break;
         }
-        
 
     }
 }
