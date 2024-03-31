@@ -3,8 +3,9 @@ package week5;
 import java.util.Scanner;
 
 public class MainFaktorial {
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        
         System.out.print("Input the number of elements you want to count : ");
         int element = sc.nextInt();
 

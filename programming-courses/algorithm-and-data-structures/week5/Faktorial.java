@@ -7,7 +7,7 @@ public class Faktorial {
 
     public int num;
 
-    public static int FaktorialBF(int n) {
+    public int FaktorialBF(int n) {
         int fakto = 1;
         for (int i = 1; i <= n; i++) {
             fakto *= i;
