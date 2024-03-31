@@ -34,7 +34,7 @@ public class MainSquared {
             System.out.println("Value " + png[i].num + " squared " + png[i].squared + " is: "
                     + png[i].SquaredDC(png[i].num, png[i].squared));
         }
+        
 
- 
     }
 }
