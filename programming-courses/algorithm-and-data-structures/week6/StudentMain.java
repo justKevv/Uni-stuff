@@ -40,7 +40,11 @@ public class StudentMain {
         data.display();
 
         System.out.println("Sorted Student List based on GPA using insertion sort");
-        data.insertionSort();
+        System.out.print("1. Ascending 2. Descending: ");
+        int input = s1.nextInt();
+        data.insertionSort(
+            input == 1 ? true : false
+        );
         data.display();
 
     }

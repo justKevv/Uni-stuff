@@ -49,15 +49,22 @@ public class StudentLists {
         }
     }
 
-    void insertionSort() {
+    void insertionSort(boolean asc) {
         for (int i = 1; i < list.length; i++) {
             Students tmp = list[i];
-            int j = i - 1;
-            while (j >= 0 && list[j].gpa > tmp.gpa) {
-                list[j + 1] = list[j];
-                j--;
+            int j = i;
+            if (asc) {
+                while (j > 0 && list[j - 1].gpa > tmp.gpa) {
+                    list[j] = list[j - 1];
+                    j--;
+                }
+            } else {
+                while (j > 0 && list[j - 1].gpa < tmp.gpa) {
+                    list[j] = list[j - 1];
+                    j--;
+                }
             }
-            list[j + 1] = tmp;
+            list[j] = tmp;
         }
     }
 }
