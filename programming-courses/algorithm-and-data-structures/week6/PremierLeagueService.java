@@ -26,12 +26,12 @@ public class PremierLeagueService {
             PremierLeague tmp = leagues[i];
             int j = i;
             if (asc) {
-                while (j > 0 && leagues[j - 1].points < tmp.points) {
+                while (j > 0 && leagues[j - 1].points > tmp.points) {
                     leagues[j] = leagues[j - 1];
                     j--;
                 }
             } else {
-                while (j > 0 && leagues[j - 1].points > tmp.points) {
+                while (j > 0 && leagues[j - 1].points < tmp.points) {
                     leagues[j] = leagues[j - 1];
                     j--;
                 }
