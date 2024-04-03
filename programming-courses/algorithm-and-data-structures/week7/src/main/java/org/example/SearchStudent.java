@@ -1,7 +1,7 @@
 package org.example;
 
 public class SearchStudent {
-    Students[] listStd = new Students[15];
+    Students[] listStd = new Students[10];
     int idx = 0;
 
     void add(Students std) {

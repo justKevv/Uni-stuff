@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.Random;
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 import net.datafaker.Faker;
 
@@ -12,24 +13,24 @@ public class MainStudent {
         Random r = new Random();
         Faker faker = new Faker();
         SearchStudent data = new SearchStudent();
+        DecimalFormat df = new DecimalFormat("#.##");
 
         for (int i = 0; i < data.listStd.length; i++) {
-            Students student = new Students(r.nextInt(1000, 3000), faker.name().fullName(), r.nextInt(17, 20), (Math.random() * 4.1));
+            Students student = new Students(r.nextInt(1000, 3000), faker.name().fullName(), r.nextInt(17, 20),
+                    Double.parseDouble(df.format(r.nextDouble(2.0, 4.0))));
             data.add(student);
         }
 
-        System.out.println("+-------------------------------+");
-        System.out.printf("| %-10s | %-20s | %-10s | %-10s |%n", "NIM", "Name", "Age", "GPA");
-        System.out.println("+-------------------------------+");
+        System.out.println("+--------------------------------------------------------+");
+        System.out.printf("| %-5s | %-30s | %-5s | %-5s |%n", "NIM", "Name", "Age", "GPA");
+        System.out.println("+--------------------------------------------------------+");
         data.display();
-        System.out.println("+-------------------------------+");
+        System.out.println("+--------------------------------------------------------+");
         System.out.println("Enter the NIM you want to search: ");
-        int search = data.listStd[r.nextInt(data.listStd.length)].nim;
-        System.out.println(search);
+        int search = s.nextInt();
         System.out.println("Sequential Search");
         int pos = data.findSeqSearch(search);
         data.showPosition(search, pos);
         data.showData(search, pos);
     }
 }
-

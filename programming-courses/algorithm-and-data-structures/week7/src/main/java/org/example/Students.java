@@ -1,6 +1,5 @@
 package org.example;
 
-import net.datafaker.providers.base.IdNumber;
 
 public class Students {
     int nim, age;
@@ -15,6 +14,6 @@ public class Students {
     }
 
     public void display() {
-        System.out.printf("| %-10s | %-20s | %-10s | %-10s |%n", nim, name, age, gpa);
+        System.out.printf("| %-5s | %-30s | %-5s | %-5s |%n", nim, name, age, gpa);
     }
 }
