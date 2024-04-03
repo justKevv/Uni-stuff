@@ -27,7 +27,8 @@ public class MainStudent {
         data.display();
         System.out.println("+--------------------------------------------------------+");
         System.out.println("Enter the NIM you want to search: ");
-        int search = s.nextInt();
+        int search = data.listStd[r.nextInt(data.listStd.length)].nim;
+        System.out.println(search);
         System.out.println("Sequential Search");
         int pos = data.findSeqSearch(search);
         data.showPosition(search, pos);
