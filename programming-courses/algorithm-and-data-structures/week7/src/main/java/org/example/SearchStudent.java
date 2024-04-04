@@ -28,6 +28,39 @@ public class SearchStudent {
         return -1;
     }
 
+    int findBinarySearch(int search) {
+        int low = 0;
+        int high = listStd.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (listStd[mid].nim == search) {
+                return mid;
+            } else if (listStd[mid].nim > search) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return -1;
+    }
+
+    int orangBin(int cari, int left, int right) {
+        int mid;
+        if (right >= left) {
+            mid = (left + right) / 2;
+            // Divide process happens here
+            if (cari == listStd[mid].nim) {
+                return mid;
+            } else if (listStd[mid].nim < cari) {
+                return orangBin(cari, left, mid - 1);
+            } else {
+                return orangBin(cari, mid + 1, right);
+            }
+        }
+
+        return -1;
+    }
+
     void showPosition(int x, int pos) {
         if (pos == -1) {
             System.out.println("Data: " + x + " is not found");

@@ -15,6 +15,10 @@ public class MainStudent {
         SearchStudent data = new SearchStudent();
         DecimalFormat df = new DecimalFormat("#.##");
 
+        System.out.print("Enter the amount of student: ");
+        int amount = s.nextInt();
+        data.listStd = new Students[amount];
+
         for (int i = 0; i < data.listStd.length; i++) {
             Students student = new Students(r.nextInt(1000, 3000), faker.name().fullName(), r.nextInt(17, 20),
                     Double.parseDouble(df.format(r.nextDouble(2.0, 4.0))));
@@ -31,6 +35,11 @@ public class MainStudent {
         System.out.println(search);
         System.out.println("Sequential Search");
         int pos = data.findSeqSearch(search);
+        data.showPosition(search, pos);
+        data.showData(search, pos);
+
+        System.out.println("Binary Search");
+        pos = data.findBinarySearch(search);
         data.showPosition(search, pos);
         data.showData(search, pos);
     }
