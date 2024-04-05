@@ -30,17 +30,24 @@ public class MainStudent {
         System.out.println("+--------------------------------------------------------+");
         data.display();
         System.out.println("+--------------------------------------------------------+");
-        System.out.println("Enter the NIM you want to search: ");
-        int search = data.listStd[r.nextInt(data.listStd.length)].nim;
-        System.out.println(search);
+        // System.out.println("Enter the NIM you want to search: ");
+        // int search = data.listStd[r.nextInt(data.listStd.length)].nim;
+        // System.out.println(search);
+        System.out.println("Enter the name you want to search: ");
+        String search2 = data.listStd[r.nextInt(data.listStd.length)].name;
+        System.out.println(search2);
         System.out.println("Sequential Search");
-        int pos = data.findSeqSearch(search);
-        data.showPosition(search, pos);
-        data.showData(search, pos);
+        int pos = data.findSeqSearch(search2);
+        data.showPosition(search2, pos);
+        data.showData(search2, pos);
 
-        System.out.println("Binary Search");
-        pos = data.findBinarySearch(search);
-        data.showPosition(search, pos);
-        data.showData(search, pos);
+        // System.out.println("Selection Sort");
+        // data.selectionSort();
+        // data.display();
+        
+        // System.out.println("Binary Search");
+        // pos = data.findBinarySearch(search);
+        // data.showPosition(search, pos);
+        // data.showData(search, pos);
     }
 }

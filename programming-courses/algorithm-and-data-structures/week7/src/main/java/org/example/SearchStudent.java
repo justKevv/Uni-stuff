@@ -19,9 +19,9 @@ public class SearchStudent {
         }
     }
 
-    int findSeqSearch(int search) {
+    int findSeqSearch(String search) {
         for (int i = 0; i < listStd.length; i++) {
-            if (listStd[i].nim == search) {
+            if (listStd[i].name.equals(search)) {
                 return i;
             }
         }
@@ -44,6 +44,21 @@ public class SearchStudent {
         return -1;
     }
 
+    void selectionSort() {
+        for (int i = 0; i < listStd.length - 1; i++) {
+            int smallest = i;
+            for (int j = i + 1; j < listStd.length; j++) {
+                if (listStd[j].nim < listStd[smallest].nim) {
+                    smallest = j;
+                }
+            }
+
+            Students temp = listStd[smallest];
+            listStd[smallest] = listStd[i];
+            listStd[i] = temp;
+        }
+    }
+
     int orangBin(int cari, int left, int right) {
         int mid;
         if (right >= left) {
@@ -61,7 +76,7 @@ public class SearchStudent {
         return -1;
     }
 
-    void showPosition(int x, int pos) {
+    void showPosition(String x, int pos) {
         if (pos == -1) {
             System.out.println("Data: " + x + " is not found");
         } else {
@@ -69,9 +84,9 @@ public class SearchStudent {
         }
     }
 
-    void showData(int x, int pos) {
+    void showData(String x,int pos) {
         if (pos != -1) {
-            System.out.println("NIM \t : "+ x);
+            System.out.println("NIM \t : "+ listStd[pos].nim);
             System.out.println("Name \t : "+ listStd[pos].name);
             System.out.println("Age \t : "+ listStd[pos].age);
             System.out.println("GPA \t : "+ listStd[pos].gpa);
