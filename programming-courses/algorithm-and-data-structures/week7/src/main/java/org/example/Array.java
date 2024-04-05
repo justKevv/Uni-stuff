@@ -52,7 +52,15 @@ public class Array {
     }
 
     void Biggest() {
-        System.out.println("Biggest number: " + data[data.length - 1]);
+        int max = 0;
+        int pos = 0;
+        for (int i = 0; i < data.length; i++) {
+            if (max < data[i]) {
+                pos = i;
+                max = data[i];
+            }
+        }
+        System.out.println("Biggest number is " + max + " at position " + pos);
     }
 
     static Scanner scanner = new Scanner(System.in);
@@ -71,6 +79,7 @@ public class Array {
         }
 
         data.display();
+        data.Biggest();
         data.selectionSort();
         data.display();
         int search = data.data[rand.nextInt(data.data.length)];
