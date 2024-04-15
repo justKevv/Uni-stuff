@@ -5,11 +5,12 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class MainBook {
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         StackBook st = new StackBook(8);
         Faker faker = new Faker();
         Random r = new Random();
-        Scanner sc = new Scanner(System.in);
+        
 
         char choose = 't';
         int numbers = 0;
