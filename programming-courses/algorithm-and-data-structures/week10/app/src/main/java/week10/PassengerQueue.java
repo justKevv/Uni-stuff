@@ -1,16 +1,16 @@
 package week10;
 
-public class Queue {
+public class PassengerQueue {
     int max, size, front, rear;
-    int Q[];
+    Passenger[] Q;
 
-    Queue(int max) {
+    PassengerQueue(int max) {
         this.max = max;
         Create();
     }
 
     void Create() {
-        Q = new int[max];
+        Q = new Passenger[max];
         size = 0;
         front = rear = -1;
     }
@@ -23,28 +23,6 @@ public class Queue {
         return (size == max);
     }
 
-    void Display() {
-        if (IsEmpty())
-            System.out.println("Queue is Empty");
-        else {
-            System.out.println("The first element: "+ Q[front]);
-        }
-    }
-
-    void print() {
-        if (IsEmpty())
-            System.out.println("Queue is Empty");
-        else {
-            int i = front;
-            while (i != rear) {
-                System.out.print(Q[i] + " ");
-                i = (i + 1) % max;
-            }
-            System.out.println(Q[i] + " ");
-            System.out.println("Element amount: "+ size);
-        }
-    }
-
     void clear() {
         if (IsEmpty())
             System.out.println("Queue is Empty");
@@ -55,7 +33,7 @@ public class Queue {
         }
     }
 
-    void enqueue(int n) {
+    void Enqueue(Passenger data) {
         if (IsFull()) {
             System.out.println("Queue is Full");
         } else {
@@ -66,16 +44,15 @@ public class Queue {
                     rear = 0;
                 } else {
                     rear++;
-                    
                 }
             }
-            Q[rear] = n;
+            Q[rear] = data;
             size++;
         }
     }
 
-    int Dequeue() {
-        int data = 0;
+    Passenger Dequeue() {
+        Passenger data = new Passenger("", "", "", 0, 0);
         if (IsEmpty()) {
             System.out.println("Queue is Empty");
         } else {
@@ -93,4 +70,29 @@ public class Queue {
         }
         return data;
     }
+
+    void peek() {
+        if (IsEmpty()) {
+            System.out.println("Queue is Empty");
+        } else {
+            System.out.println("The first element: " + Q[front].name + " " + Q[front].cityOrigin + " "
+                    + Q[front].cityDestination + " " + Q[front].ticketAmount + " " + Q[front].price);
+        }
+    }
+
+    void print() {
+        if (IsEmpty())
+            System.out.println("Queue is Empty");
+        else {
+            int i = front;
+            while (i != rear) {
+                System.out.println(Q[i].name + " " + Q[i].cityOrigin + " " + Q[i].cityDestination + " " + Q[i].ticketAmount
+                        + " " + Q[i].price);
+                i = (i + 1) % max;
+            }
+            System.out.println(Q[i] + " ");
+            System.out.println("Element amount: " + size);
+        }
+    }
+
 }

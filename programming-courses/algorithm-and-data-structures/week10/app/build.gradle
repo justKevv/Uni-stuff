@@ -21,6 +21,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
 
     // This dependency is used by the application.
+    implementation 'net.datafaker:datafaker:2.2.2'
+
     implementation 'com.google.guava:guava:31.1-jre'
 }
 
