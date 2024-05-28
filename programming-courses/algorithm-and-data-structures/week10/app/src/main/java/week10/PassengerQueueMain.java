@@ -10,8 +10,9 @@ public class PassengerQueueMain {
         System.out.println("1. Enqueue");
         System.out.println("2. Dequeue");
         System.out.println("3. Check first queue element");
-        System.out.println("4. Check all queue elements");
-        System.out.println("5. Clear");
+        System.out.println("4. Check last queue element");
+        System.out.println("5. Check all queue elements");
+        System.out.println("6. Clear");
     }
 
     static Scanner sc = new Scanner(System.in);
@@ -44,9 +45,12 @@ public class PassengerQueueMain {
                     Q.peek();
                     break;
                 case 4:
-                    Q.print();
+                    Q.peekRear();
                     break;
                 case 5:
+                    Q.print();
+                    break;
+                case 6:
                     Q.clear();
                     break;
             }

@@ -95,4 +95,13 @@ public class PassengerQueue {
         }
     }
 
+    void peekRear() {
+        if (IsEmpty()) {
+            System.out.println("Queue is Empty");
+        } else {
+            System.out.println("The last element: " + Q[rear].name + " " + Q[rear].cityOrigin + " "
+                    + Q[rear].cityDestination + " " + Q[rear].ticketAmount + " " + Q[rear].price);
+        }
+    }
+
 }
