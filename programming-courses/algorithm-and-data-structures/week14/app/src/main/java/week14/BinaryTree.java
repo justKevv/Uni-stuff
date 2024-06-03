@@ -178,6 +178,33 @@ public class BinaryTree {
         return current;
     }
 
-    
+    void displayMinMaxValues() {
+        if (isEmpty()) {
+            System.out.println("Tree is empty");
+            return;
+        }
+
+        Node minNode = findMin(root);
+        Node maxNode = findMax(root);
+
+        System.out.println("Smallest value in the tree: " + minNode.data);
+        System.out.println("Largest value in the tree: " + maxNode.data);
+    }
+
+    Node findMin(Node node) {
+        Node current = node;
+        while (current.left != null) {
+            current = current.left;
+        }
+        return current;
+    }
+
+    Node findMax(Node node) {
+        Node current = node;
+        while (current.right != null) {
+            current = current.right;
+        }
+        return current;
+    }
 
 }
