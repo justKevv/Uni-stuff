@@ -207,4 +207,17 @@ public class BinaryTree {
         return current;
     }
 
+    void displayLeaf(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        if (node.left == null && node.right == null) {
+            System.out.print(node.data + " ");
+        }
+
+        displayLeaf(node.left);
+        displayLeaf(node.right);
+    }
+
 }
