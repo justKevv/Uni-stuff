@@ -9,5 +9,9 @@ public class BinaryTreeArrayMain {
         int idxLast = 6;
         tree.populateData(data, idxLast);
         tree.traverseInOrder(0);
+
+        tree.traversePostOrder(0);
+        System.out.println("");
+        tree.traversePreOrder(0);
     }
 }
