@@ -160,4 +160,24 @@ public class BinaryTree {
         }
     }
 
+    void insertRecursive(int data) {
+        root = addRecursive(root, data);
+    }
+
+    Node addRecursive(Node current, int data) {
+        if (isEmpty()) {
+            return new Node(data);
+        }
+
+        if (data < current.data) {
+            current.left = addRecursive(current.left, data);
+        } else if (data > current.data) {
+            current.right = addRecursive(current.right, data);
+        }
+
+        return current;
+    }
+
+    
+
 }
