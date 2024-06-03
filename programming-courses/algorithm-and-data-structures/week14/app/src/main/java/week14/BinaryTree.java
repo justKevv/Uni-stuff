@@ -220,4 +220,19 @@ public class BinaryTree {
         displayLeaf(node.right);
     }
 
+    int getLeafCount(Node node) {
+        int count = 0;
+        if (node == null) {
+            return 0;
+        }
+
+        if (node.left == null && node.right == null) {
+            return 1;
+        }
+
+        count += getLeafCount(node.left);
+        count += getLeafCount(node.right);
+        return count;
+    }
+
 }
