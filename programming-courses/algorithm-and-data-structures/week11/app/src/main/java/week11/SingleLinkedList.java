@@ -160,4 +160,20 @@ public class SingleLinkedList {
             }
         }
     }
+
+    void insertBefore(int key, int input) {
+        if (isEmpty()) {
+            addFirst(input);
+        } else {
+            Node temp = head;
+            while (temp.data != key) {
+                temp = temp.next;
+            }
+            Node ndInput = new Node(input, temp.next);
+            temp.next = ndInput;
+            if (ndInput.next == null) {
+                tail = ndInput;
+            }
+        }
+    }
 }
