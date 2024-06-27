@@ -144,4 +144,35 @@ public class DoubleLinkedLists {
         }
     }
 
+    int getFirst() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("List is empty");
+        } else {
+            return head.data;
+        }
+    }
+
+    int getLast() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("List is empty");
+        } else {
+            Node current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            return current.data;
+        }
+    }
+
+    int get(int index) throws Exception {
+        if (isEmpty()) {
+            throw new Exception("List is empty");
+        }
+        Node current = head;
+        for (int i = 0; i < index; i++) {
+            current = current.next;
+        }
+        return current.data;
+    }
+
 }
