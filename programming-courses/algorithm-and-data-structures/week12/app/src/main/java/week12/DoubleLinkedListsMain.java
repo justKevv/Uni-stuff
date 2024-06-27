@@ -19,6 +19,24 @@ public class DoubleLinkedListsMain {
         list.clear();
         list.print();
         System.out.println("Size: " + list.size());
+        list.addLast(50);
+        list.addLast(40);
+        list.addLast(10);
+        list.addLast(20);
+        list.print();
+        System.out.println("Size: " + list.size());
+        System.out.println("=============================");
+        list.removeFirst();
+        list.print();
+        System.out.println("Size: " + list.size());
+        System.out.println("=============================");
+        list.removeLast();
+        list.print();
+        System.out.println("Size: " + list.size());
+        System.out.println("=============================");
+        list.remove(1);
+        list.print();
+        System.out.println("Size: " + list.size());
 
     }
 }

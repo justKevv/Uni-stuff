@@ -88,4 +88,60 @@ public class DoubleLinkedLists {
             System.out.println("Empty");
         }
     }
+
+    void removeFirst() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("List is empty");
+        } else if (size == 1) {
+            removeLast();
+        } else {
+            head = head.next;
+            head.prev = null;
+            size--;
+        }
+    }
+
+    void removeLast() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("List is empty");
+        } else if (head.next == null) {
+            head = null;
+            size--;
+            return;
+            
+        }
+        Node current = head;
+        while (current.next.next != null) {
+            current = current.next;
+        }
+        current.next = null;
+        size--;
+    }
+
+    void remove(int index) throws Exception {
+        if (isEmpty() || index >= size) {
+            throw new Exception("Index out of bounds");
+        } else if (size == 0) {
+            removeFirst();
+        } else {
+            Node current = head;
+            int i = 0;
+            while (i < index) {
+                current = current.next;
+                i++;
+            }
+            if (current.next == null) {
+                removeLast();
+            } else if (current.prev == null) {
+                current = current.next;
+                current.prev = null;
+                head = current;
+            } else {
+                current.prev.next = current.next;
+                current.next.prev = current.prev;
+            }
+            size--;
+        }
+    }
+
 }
