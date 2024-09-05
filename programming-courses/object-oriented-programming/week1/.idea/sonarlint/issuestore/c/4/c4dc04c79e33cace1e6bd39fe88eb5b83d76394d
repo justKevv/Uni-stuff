@@ -1,0 +1,7 @@
+
+›
+java:S1450"SRemove the "gear" field and declare it as a local variable in the relevant methods.(Ÿ°îÑüÿÿÿÿ8ô¸å“š2J$b128bab8-1b7c-4986-b02c-f6538d29052b
+r	java:S106"+Replace this use of System.out by a logger.(ÉÍ÷‘øÿÿÿÿ8Í‚ì“š2J$9b279c1c-132c-40c9-bbe0-03b68a1d37db
+r	java:S106"+Replace this use of System.out by a logger.(Õ Æøÿÿÿÿ8ı¿ì“š2J$c5cca648-914a-42c6-a70b-cf258e253989
+p
+java:S1068"(Remove this unused "gear" private field.(Ÿ°îÑüÿÿÿÿ8ú¸å“š2J$084ae60c-73c5-4536-8ca3-923fa6cbe5c8
