@@ -1,0 +1,27 @@
+h2 {
+    color: orange;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+.square {
+    padding: 50px;
+    width: 100px;
+    color: #fff;
+    margin: 10px;
+    background: orange;
+}
+
+#square {
+    width: 400px;
+    color: #fff;
+    background: blue;
+    padding: 50px;
+}
+
+body {
+    background: url("DSC_7040.jpg"), url(336-3367903_aesthetic-anime-wallpaper-desktop.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, 400px;
+    color: white;
+}

@@ -1,0 +1,17 @@
+.text-1 {
+    color: red;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.text-2 {
+    color: green;
+    font-size: 24pt;
+    font-style: italic;
+}
+
+.text-3 {
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
+}
