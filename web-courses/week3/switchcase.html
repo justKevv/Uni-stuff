@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Switch/Case Change</title>
+</head>
+<body>
+    <script>
+        var answer = prompt("You're lucky! Please choose your prize by entering a number from 1 to 5");
+        var prize = "";
+        switch(answer){
+            case "1":
+                prize = "Tissue";
+                break;
+            case "2":
+                prize = "1 Box of Coffee";
+                break;
+            case "3":
+                prize = "Sticker";
+                break;
+            case "4":
+                prize = "Cooking Oil";
+                break;
+            case "5":
+                prize = "Rp 50,000 Cash";
+                break;
+            default:
+                document.write("<p>Oops! You chose the wrong option</p>");
+        }
+        if(prize === ""){
+            document.write("<p>You failed to get a prize</p>");
+        } else {
+            document.write("<h2>Congratulations! You won " + prize + "</h2>");
+        }
+    </script>
+</body>
+</html>
