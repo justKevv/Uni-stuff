@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #paragraph {
+        width: 600px;
+        height: 80px;
+        background-color: pink;
+        line-height: 80px;
+        text-align: center;
+        font-size: 30px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#paragraph").click(function () {
+          $("#paragraph").css("color", "white");
+        });
+
+        $("#paragraph").mouseover(function () {
+          $("#paragraph").css("background-color", "silver");
+        });
+
+        $("#paragraph").mouseout(function () {
+          $("#paragraph").css("background-color", "blue");
+        });
+
+        $("#paragraph").dblclick(function () {
+          $("#paragraph").css("border", "solid 3px black");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <p id="paragraph">Week 4 JQuery Lab</p>
+  </body>
+</html>

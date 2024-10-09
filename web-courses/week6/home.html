@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+            $("#box").load("test-content.html");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="box">
+        <h2>Click the button bellow to show content</h2>
+    </div>
+    <button type="button">Click me!</button>
+  </body>
+</html>

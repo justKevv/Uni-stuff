@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("h2").hide();
+          $(".subtitle").hide();
+          $("#paragraph").hide();
+          $("#paragraph.two").hide();
+          $("div p.paragraph").hide();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h2>This is Chapter Title</h2>
+    <h3 class="subtitle">This is subchapter title</h3>
+    <p id="paragraph">This is the first paragraph</p>
+    <p id="paragraph" class="two">This is the second paragraph</p>
+    <div>
+        <p class="paragraph">
+            This is the third paragraph
+        </p>
+    </div>
+    <p>This is a paragraph that will remain visible</p>
+    <button>Click me!</button>
+  </body>
+</html>

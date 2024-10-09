@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styleSlide.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $("#button1").click(function() {
-                alert("This is practicum week 6");
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#box2").slideToggle("slow");
             });
         });
     </script>
 </head>
 <body>
-    <button type="button" id="button1">Click me</button>
+    <div id="flip">Click for Slide Effect</div>
+    <div id="box2">Good morning</div>
 </body>
 </html>

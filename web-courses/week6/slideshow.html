@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleSlideShow.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        var i = 0;
+        $(document).ready(function(){
+            $('.slidertitle, #slider img').hide();
+            showNextImage();
+            setInterval('showNextImage()', 3000);
+        })
+
+        function showNextImage() {
+            i++;
+            $('#sliderImage' + i).appendTo('#slider').fadeIn(1100).delay(1100).fadeOut(1100);
+            $('#title' + i).appendTo('#slider').fadeIn(1100).delay(1100).fadeOut(1100);
+            if(i == 3) {
+                i = 0;
+            }
+        };
+    </script>
+</head>
+<body>
+    <div id="slider">
+        <img src="img/gambar1.png" id="sliderImage1">
+        <div class="slidertitle">Gambar 1</div>
+
+        <img src="img/gambar2.jpg" alt="" id="sliderImage2">
+        <div class="slidertitle">Gambar 2</div>
+
+        <img src="img/gambar3.jpg" alt="" id="sliderImage3">
+        <div class="slidertitle">Gambar 3</div>
+    </div>
+</body>
+</html>
