@@ -1,12 +1,6 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-Y
-)src/main/java/org/interfaces/Payable.java,3\5\35ee1bb9fbcc45d9aa3fb9cadea4cd1a2f16d7b6
-K
-src/main/java/Employee.java,6\d\6de6c25421c322a315412c20faffd04ea54e253a
-O
-src/main/java/org/Employee.java,1\c\1c30131c41ef866bb0587075ba4062bc0c28c501
 R
 "src/main/java/week10/Employee.java,2\d\2da47cc196a8bf25ad23eb050388eafe8ec461de
 \
@@ -35,11 +29,17 @@ k
 ,src/main/java/week10/assignment/Barrier.java,8\0\803533e76d217bc1f261bd486a852b424dadb24b
 b
 2src/main/java/week10/assignment/WalkingZombie.java,5\f\5f2ce37e3a57a94580756139e461b9fa87f74baa
-m
-=src/main/java/week10/assignment/interfaces/JumpingZombie.java,6\0\6086a2d22a50d236ea8da76acd9d97e066f9fde4
 b
 2src/main/java/week10/assignment/JumpingZombie.java,3\2\32ee69ed2053b2dffdacbfc65218520c590d9c36
 [
 +src/main/java/week10/assignment/Tester.java,1\8\1842290c5474060f31cd417e641f6021f1c874a5
 Z
 *src/main/java/week10/assignment/Plant.java,c\3\c3844ce35e758bf1b159772eaaaf25451b6bcc42
+i
+9src/main/java/week10/assignment/models/JumpingZombie.java,a\1\a150fd44d26606e551b4b81a6c5254d66d1da2a2
+a
+1src/main/java/week10/assignment/models/Plant.java,6\a\6a13780f03b80fc5b236eba02e542c362c7fc534
+i
+9src/main/java/week10/assignment/models/WalkingZombie.java,d\e\de8392d856c42a1368564ced44f4ae7399b51a65
+b
+2src/main/java/week10/assignment/models/Zombie.java,5\d\5d0a8be19f8970206ed3cb80a3dd98bd485639de

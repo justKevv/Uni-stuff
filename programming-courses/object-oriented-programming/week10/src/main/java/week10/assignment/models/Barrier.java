@@ -1,4 +1,4 @@
-package week10.assignment;
+package week10.assignment.models;
 
 import week10.assignment.interfaces.Destroyable;
 

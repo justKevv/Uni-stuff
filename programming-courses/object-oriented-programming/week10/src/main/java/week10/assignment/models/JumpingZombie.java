@@ -1,4 +1,4 @@
-package week10.assignment;
+package week10.assignment.models;
 
 public class JumpingZombie extends Zombie {
     public JumpingZombie(int health, int level) {

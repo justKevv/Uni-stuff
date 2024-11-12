@@ -1,5 +1,10 @@
 package week10.assignment;
 
+import week10.assignment.models.Barrier;
+import week10.assignment.models.JumpingZombie;
+import week10.assignment.models.Plant;
+import week10.assignment.models.WalkingZombie;
+
 public class Tester {
     public static void main(String[] args) {
         WalkingZombie wz = new WalkingZombie(100, 1);

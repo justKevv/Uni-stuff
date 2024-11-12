@@ -1,6 +1,6 @@
-package week10.assignment;
+package week10.assignment.models;
 
-public class WalkingZombie extends Zombie{
+public class WalkingZombie extends Zombie {
     public WalkingZombie(int health, int level) {
         this.health = health;
         this.level = level;
