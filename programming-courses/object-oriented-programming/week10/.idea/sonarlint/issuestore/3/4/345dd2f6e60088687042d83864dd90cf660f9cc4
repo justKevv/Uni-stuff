@@ -1,0 +1,5 @@
+
+
+java:S1301%"KReplace this "switch" statement by "if" statements to increase readability.(íÕ„¾8“™ò±2J$132169d3-633c-4e11-ab9d-18fcf400645e
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îš˜ùÿÿÿÿ8Øó•ò±2J$5deebf62-8ed3-4e9e-bf89-de44f00dcafd
+d	java:S131%""Add a default case to this switch.(íÕ„¾8Ì“™ò±2J$547ef886-2715-466a-84c2-82ed58e97189

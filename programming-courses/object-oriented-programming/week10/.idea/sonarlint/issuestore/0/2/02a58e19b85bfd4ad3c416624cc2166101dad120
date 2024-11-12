@@ -1,0 +1,20 @@
+
+΅	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ξωÿÿÿÿ8Χυόσ±2J$f69de671-9c8b-4518-b1bc-b41044bd42ff
+~
+java:S1854"6Remove this useless assignment to local variable "e2".(θΎψÿÿÿÿ8‹ÿσ±2J$e9b25fbb-0624-4400-9d15-70d870b7855a
+}
+java:S1854"5Remove this useless assignment to local variable "p".(§µφ»όÿÿÿÿ8‘ώσ±2J$82736b78-bc41-42f1-8a41-44998701b8d2
+}
+java:S1854"5Remove this useless assignment to local variable "e".(Ι»›¬ϊÿÿÿÿ8ΐξύσ±2J$91af069a-d1ee-4330-8dc6-b536b6db1f04
+r
+java:S1197"*Move the array designators [] to the type.(Ι»›¬ϊÿÿÿÿ8Δξύσ±2J$ad93f75c-58fc-4589-95dc-7fcdf758af79
+n
+java:S1481"&Remove this unused "e" local variable.(Ι»›¬ϊÿÿÿÿ8Εξύσ±2J$23df465a-c968-49f6-a3ba-bf255eb80fca
+r
+java:S1197"*Move the array designators [] to the type.(§µφ»όÿÿÿÿ8”ώσ±2J$faf1896f-5bb6-4c46-ac03-6b714b52d159
+n
+java:S1481"&Remove this unused "p" local variable.(§µφ»όÿÿÿÿ8”ώσ±2J$927600ea-a28c-4e87-a64b-2e0ac85b6cf2
+r
+java:S1197"*Move the array designators [] to the type.(θΎψÿÿÿÿ8‹ÿσ±2J$f5e96ea5-4f45-4c69-95c1-589057a5a032
+o
+java:S1481"'Remove this unused "e2" local variable.(θΎψÿÿÿÿ8‹ÿσ±2J$ba2ca2a6-b264-4127-97d8-c8f58e126f61

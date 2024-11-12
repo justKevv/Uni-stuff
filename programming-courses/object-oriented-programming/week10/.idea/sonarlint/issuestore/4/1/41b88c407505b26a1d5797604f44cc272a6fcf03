@@ -1,0 +1,13 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îš˜ùÿÿÿÿ8—±—ô±2J$95591b92-bb16-434e-b0ad-660f36437044
+m	java:S106"+Replace this use of System.out by a logger.(¤æç”8¡±—ô±2J$13c508aa-b3c4-4073-af3b-3d3fdf41fa16
+“
+java:S6201"KReplace this instanceof check and cast with 'instanceof ElectricityBill eb'(¶ÃËúÿÿÿÿ8¢±—ô±2J$812fdb0d-89b5-4a42-b569-08520ca04e3e
+r	java:S106
+"+Replace this use of System.out by a logger.(¡§© ÿÿÿÿÿ8¢±—ô±2J$a1e61c08-6769-4032-b5b4-882d1f461d25
+•
+java:S6201"MReplace this instanceof check and cast with 'instanceof PermanentEmployee pe'(áéªûÿÿÿÿ8£±—ô±2J$32de8120-3caf-454d-aab5-790e90179482
+r	java:S106"+Replace this use of System.out by a logger.(öòº•ûÿÿÿÿ8¤±—ô±2J$ac70b580-543f-4afb-beaa-b7c922c22920
+r	java:S106"+Replace this use of System.out by a logger.(Ü°Şøÿÿÿÿ8¦±—ô±2J$0e01b838-cbf7-4610-a77d-a638f3c23846
+r	java:S106"+Replace this use of System.out by a logger.(íÉÌ×ÿÿÿÿÿ8¤¯™ô±2J$ba0aef1f-fe43-40ff-be0c-bfa41355d533
+m	java:S106"+Replace this use of System.out by a logger.(†ö¢€8¤¯™ô±2J$33298113-399f-4c52-a227-682ea2b5bc78
