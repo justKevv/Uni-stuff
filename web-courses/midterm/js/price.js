@@ -1,31 +1,38 @@
 function checkPrice(event) {
-  event.preventDefault();
+    event.preventDefault();
 
-  const weight = parseInt(document.getElementById("weight").value);
-  const service = document.getElementById("service").value;
-  const type = document.getElementById("type").value;
-  const discount = document.getElementById("discount").value;
+    const weight = parseInt(document.getElementById("weight").value);
+    const service = document.getElementById("service").value;
+    const type = document.getElementById("type").value;
+    const discount = document.getElementById("discount").value;
 
-  const servicePrices = {
-    wash_dry: 1000,
-    wash_iron: 1200,
-    iron_only: 900,
-  };
+    console.log(`Weight: ${weight}, Service: ${service}, Type: ${type}, Discount: ${discount}`);
 
-  let pricePerKg = servicePrices[service];
+    if (isNaN(weight) || weight <= 0) {
+        document.getElementById("result").innerHTML = "Weight must be a positive number.";
+        return;
+    }
 
-  let expressFee = 0;
-  if (type === "express") {
-    expressFee = 200;
-  }
 
-  let totalPrice = (pricePerKg + expressFee) * weight;
+    const servicePrices = {
+        wash_dry: 1000,
+        wash_iron: 1200,
+        iron_only: 900,
+    };
 
-  if (discount === "member") {
-    totalPrice = totalPrice * 0.9;
-  }
+    let pricePerKg = servicePrices[service];
 
-  document.getElementById("result").innerHTML = `Total Price: Rp ${Math.round(
-    totalPrice
-  )}`;
+    let expressFee = 0;
+    if (type === "express") {
+        expressFee = 200;
+    }
+
+    let totalPrice = (pricePerKg + expressFee) * weight;
+
+    if (discount === "member") {
+        totalPrice = totalPrice * 0.9;
+    }
+
+    // document.getElementById("result").innerHTML = `Total Price: Rp ${Math.round(totalPrice)}`;
+    document.getElementById("result").innerHTML = `Test`;
 }
