@@ -1,0 +1,19 @@
+
+p
+java:S1604"(Make this anonymous inner class a lambda(¬Å‡ùÿÿÿÿ8Ôîúü³2J$f0000e26-0916-40ef-a75f-b0fee91f68b0
+p
+java:S1604T"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ8Ôîúü³2J$c60768ea-9012-46ca-8bef-7be809804a0b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø£óÔúÿÿÿÿ8Ñ ü³2J$1b2e5df7-6797-4e6f-b205-489cf799c4b0
+
+java:S1450
+"ZRemove the "tabbedPane1" field and declare it as a local variable in the relevant methods.(ÀĞ™©8çîúü³2J$acb5356a-cd82-499c-bf65-fc45216e4ed2
+
+java:S1450"URemove the "table1" field and declare it as a local variable in the relevant methods.(’¸Ş¢ÿÿÿÿÿ8çîúü³2J$9104630f-2b57-4882-98a3-0c1fbc694b9b
+˜
+java:S1450"URemove the "table2" field and declare it as a local variable in the relevant methods.(ıê²¿8çîúü³2J$32b061ab-552a-4598-b817-7ebea8154949
+‘
+java:S3252""IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8íîúü³2J$5586cdac-02ec-403b-b729-3fa7a1884966
+Œ
+java:S3252X"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8õîúü³2J$855773d2-fca6-4c01-8a0a-f417dd832849
+n
+java:S1948a"&Make "data" transient or serializable.(Ú‚æäùÿÿÿÿ8øîúü³2J$be3130bc-4c31-4daa-beb1-1531e0574d39

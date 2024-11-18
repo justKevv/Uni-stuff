@@ -1,0 +1,7 @@
+
+
+java:S1192"HDefine a constant instead of duplicating this literal "Hasil: " 3 times.(’«Èıøÿÿÿÿ8´åØí²2J$3510e67a-1b41-4c3b-b674-4f4a83455b26
+—
+java:S1450"TRemove the "panel" field and declare it as a local variable in the relevant methods.(›Ã¶‰8âåØí²2J$5394087a-4e9c-445a-a6f7-d3689aba3a0f
+Œ
+java:S3252N"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8æØí²2J$41811b1b-5911-4932-8422-e66a142f3e32

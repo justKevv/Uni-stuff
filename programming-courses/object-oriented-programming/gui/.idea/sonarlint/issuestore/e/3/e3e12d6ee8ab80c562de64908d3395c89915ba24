@@ -1,0 +1,92 @@
+
+p
+java:S16047"(Make this anonymous inner class a lambda(íß¤óşÿÿÿÿ8‰Ëâù³2J$d4b96c0f-4a0f-43ef-9af2-60ac643a6c3e
+k
+java:S1604="(Make this anonymous inner class a lambda(ÉÍô8ŠËâù³2J$0a36afa5-e3e5-4bf7-be85-449ed040e6cc
+p
+java:S1604F"(Make this anonymous inner class a lambda(­”Ñ¯ûÿÿÿÿ8ŠËâù³2J$44b491a1-5c97-4566-81d2-4c1917f6b917
+p
+java:S1604Q"(Make this anonymous inner class a lambda(„óÊüÿÿÿÿ8ŠËâù³2J$406dff97-6323-4fad-949a-63b45b24f9e9
+k
+java:S1604_"(Make this anonymous inner class a lambda(Şğ˜û8ŠËâù³2J$6876dcd6-462a-466f-be1f-601753d4b5ff
+k
+java:S1604j"(Make this anonymous inner class a lambda(×İ¼ª8ŠËâù³2J$323e1a4a-6d9f-4f1a-b003-99ed09dd33ab
+k
+java:S1604q"(Make this anonymous inner class a lambda(ç­»¦8ŠËâù³2J$d780ecbe-8a26-42ae-a38e-85cb456705cc
+q
+java:S1604É"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ8‹Ëâù³2J$321c56e8-76d1-4fea-bb8d-6dfee1a15c70
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼´µÆ8¤¨ãù³2J$9903e991-b2cd-44c7-bbb7-59a73229afb5
+ƒ
+java:S1659"@Declare "nim" and all following declarations on a separate line.(à°Àı8…Ìâù³2J$9bb22b18-5bc8-437c-8273-ad8f5abd5284
+
+java:S1450"URemove the "alamat" field and declare it as a local variable in the relevant methods.(—…Ş¦úÿÿÿÿ8†Ìâù³2J$379698e9-b6f3-45f1-a5a7-e1c33855492f
+›
+java:S1450Ó"WRemove the "cmdclear" field and declare it as a local variable in the relevant methods.(„Éü®8‡Ìâù³2J$f9678807-6af8-45d5-90d5-e3c8f39a75f2
+¡
+java:S1450Ô"XRemove the "cmdtampil" field and declare it as a local variable in the relevant methods.(á¿ËÙüÿÿÿÿ8‡Ìâù³2J$0984918a-e658-4d6c-b307-e6a50193216f
+–
+java:S1450"SRemove the "info" field and declare it as a local variable in the relevant methods.(à°Àı8‡Ìâù³2J$c72cbddd-a314-4062-9b95-63d3ac15cd20
+Ÿ
+java:S1450Ö"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ8ˆÌâù³2J$71cfc25f-68e5-4fa7-99d1-546819bc2bc3
+Ÿ
+java:S1450×"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ8ˆÌâù³2J$11270b3b-371f-4595-af45-add13c7d6038
+Ÿ
+java:S1450Ø"VRemove the "jLabel3" field and declare it as a local variable in the relevant methods.(Îä€øÿÿÿÿ8‰Ìâù³2J$88a12df1-ac58-4349-8f4d-ab03091fd14e
+š
+java:S1450Ù"VRemove the "jLabel4" field and declare it as a local variable in the relevant methods.(«¢•ã8‰Ìâù³2J$80fd63f9-0bd8-4e04-8079-213d89f448f7
+š
+java:S1450Ú"VRemove the "jLabel5" field and declare it as a local variable in the relevant methods.(ó Ù®8‰Ìâù³2J$8a25b43e-906d-40f3-bade-0df5d740780e
+Ÿ
+java:S1450Û"VRemove the "jLabel6" field and declare it as a local variable in the relevant methods.(¸ôÂøÿÿÿÿ8ŠÌâù³2J$16ae1df9-47f3-4e65-b157-4e187a282f78
+š
+java:S1450Ü"VRemove the "jLabel7" field and declare it as a local variable in the relevant methods.(×ê˜Ÿ8ŠÌâù³2J$db07a106-2208-4498-80be-5a41711d3096
+š
+java:S1450İ"VRemove the "jLabel8" field and declare it as a local variable in the relevant methods.(å»«¢8‹Ìâù³2J$29b065c5-fd26-4b51-8c5a-bcca5a84c0c6
+¤
+java:S1450Ş"[Remove the "jScrollPane1" field and declare it as a local variable in the relevant methods.(¤á×ÿÿÿÿÿ8ŒÌâù³2J$16c70704-f67d-4a03-ac66-ee240e0d2e65
+¤
+java:S1450ß"[Remove the "jScrollPane2" field and declare it as a local variable in the relevant methods.(ŠÌ«·şÿÿÿÿ8ŒÌâù³2J$6c28f16a-db32-4473-9922-d93a4ce8a32d
+™
+java:S1450"VRemove the "jurusan" field and declare it as a local variable in the relevant methods.(à°Àı8Ìâù³2J$167285e6-2900-4c04-9b32-1997d6479734
+–
+java:S1450"SRemove the "nama" field and declare it as a local variable in the relevant methods.(à°Àı8Ìâù³2J$0d660765-0182-4148-bd7e-f69e887e571e
+•
+java:S1450"RRemove the "nim" field and declare it as a local variable in the relevant methods.(à°Àı8Ìâù³2J$aacde098-80ab-4ff3-92c6-90073d509735
+š
+java:S1450"WRemove the "semester" field and declare it as a local variable in the relevant methods.(à°Àı8Ìâù³2J$984ba801-c542-4b3c-bb15-6a9803806efb
+n
+java:S1172ì"*Remove this unused method parameter "evt".(©¢İÁ8¯Ìâù³2J$8d669b08-8f2a-4f16-9096-3dc22b4d1e07
+{
+java:S1135í"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8±Ìâù³2J$a457762e-d138-478f-8a84-b091a95200f1
+s
+java:S1172ğ"*Remove this unused method parameter "evt".(êÎÅÚûÿÿÿÿ8²Ìâù³2J$36f5b633-f128-45ae-a839-6957ad952d3f
+{
+java:S1135ñ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8²Ìâù³2J$6dbc2ad7-9640-45f5-b498-4b0b97751fa7
+n
+java:S1172ô"*Remove this unused method parameter "evt".(ïÂÖ³8²Ìâù³2J$008eb73d-85b2-4940-b351-7e9f51fa8ee6
+{
+java:S1135õ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8²Ìâù³2J$c569a340-ac6a-4266-a688-733f83dbe512
+s
+java:S1172ø"*Remove this unused method parameter "evt".(ñåë¯ÿÿÿÿÿ8³Ìâù³2J$15c86ded-b420-4d21-ba49-8bc0b1c7c507
+{
+java:S1135ù"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8³Ìâù³2J$bd8ac53b-2ac8-487c-a308-179f98b95f2e
+s
+java:S1172ü"*Remove this unused method parameter "evt".(Ã¢Ôìıÿÿÿÿ8´Ìâù³2J$490de2de-c25b-4a86-9853-1f34076efb0d
+{
+java:S1135ı"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8´Ìâù³2J$d50ee00a-a634-40af-ae07-813cb92bb561
+s
+java:S1172†"*Remove this unused method parameter "evt".(Áÿëœúÿÿÿÿ8µÌâù³2J$bc15e579-f758-4ea6-b0d5-f59322142ed7
+{
+java:S1135‡"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8¶Ìâù³2J$5b972f59-4782-440b-a8cb-bce64fd4dbed
+n
+java:S1172©"*Remove this unused method parameter "evt".(¡½¼¯8¸Ìâù³2J$be3dda8c-7f16-4317-8e9a-30e305e600a3
+{
+java:S1135ª"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8¹Ìâù³2J$14c54d32-9110-48a7-8c54-f0501a61ec24
+s
+java:S1197°"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8»Ìâù³2J$18123145-397a-4fa7-8fb8-dd9d197c489f
+‰
+java:S2147¿"ECombine this catch with the one at line 317, which has the same body.(¨¦Š½8¾Ìâù³2J$483faea9-2547-4b03-913d-3a0afdb8f19b
+‰
+java:S2147Á"ECombine this catch with the one at line 319, which has the same body.(ã€ 8¿Ìâù³2J$e7dca110-4356-4bcc-b2ab-a5c33f9ec245
+ˆ
+java:S2147Ã"ECombine this catch with the one at line 321, which has the same body.(ñÎ¯%8¿Ìâù³2J$cff03fca-8f0b-497f-89ee-7733c418ee18
